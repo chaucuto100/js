@@ -10,5 +10,5 @@ if(a[i].href.match(args[j])){
 a[i].target = "";       
 a[i].rel = "";       
 }}}}       
-  changetargetlink('nguyenminhchau1993.blogspot.com','https://nguyenminhchau1993.blogspot.com');       
+  changetargetlink('whatthefuck.top','https://whatthefuck.top');       
 //]]>  
