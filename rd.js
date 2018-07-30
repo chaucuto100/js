@@ -1,4 +1,4 @@
-var rdp_numposts = 10;
+var rdp_numposts = 40;
 var rdp_snippet_length = 0;
 var rdp_info = 'no';
 var rdp_comment = 'Nh?n xét';
