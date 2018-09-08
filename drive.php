@@ -97,5 +97,5 @@ function get_drive_download($link){
     return $linkD;
 }
 $link = $_GET['link'];
-echo '<style type="text/css">::-webkit-scrollbar{ width: 0px!important}body{max-width:100px;overflow:hidden;font-size:16px;margin:0px!important;display:inline!important}.videoz{border:0!important;overflow:hidden;width:100%;height:100%;left:0;top:0px;position: fixed !important; z-index:1}</style>
+echo '<style type="text/css">::-webkit-scrollbar{ width: 0px!important}body{width:100%;overflow:hidden;margin:0px!important;display:inline!important}.videoz{border:0!important;overflow:hidden;width:100%;height:100%;left:0;top:0px;position: fixed !important; z-index:1}</style>
 <video  class="videoz"  controls Fullscreen  autoplay> <source src='.get_drive_download($link).' type="video/mp4" >Your browser not suport HTML5</video>';
